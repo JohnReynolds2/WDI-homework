@@ -12,3 +12,5 @@
 // 2. git checkout new_branch
 // 3. You want to use other branches so you can focus on one part of the project and diversify the work.  The master branch is for the final product and you want to avoid pushing to the master unless you know for sure it is going to be part of the code. 
 
+// 1. An example of when to merge a branch into yours is if you are creating a function that depends on some new, updated information from another person working on the project in another branch.  You will want to merge the branch in to yours so you are working with the most updated information. Some times it is better to submit a pull request because you might have added a block of code you think is great but the other person in the other branch needs to 'OK' it before just blindly merging the 2 branches.
+// 2. git push origin master (if you are working in the master branch, if not substitute 'master' with 'other_branch_name')
